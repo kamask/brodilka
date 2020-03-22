@@ -1,0 +1,17 @@
+{
+  "name": "brodilka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^2.3.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "strip-bom-stream": "^4.0.0"
+  }
+}
