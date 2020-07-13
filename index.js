@@ -19,8 +19,6 @@ fs.createReadStream('./brod.csv').pipe(stripBom()).pipe(csv({separator: ';'})).o
         })
     })
 
-    setInterval()
-
     TBot.text(/^.*$/, async m => {
         if(!authList.includes(String(m.chat.id))){
             await TBot.send('sendMessage', {
